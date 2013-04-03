@@ -22,7 +22,7 @@ elif [[ $CARCH == "x86_64" ]]; then
     source=(http://opendylan.org/downloads/$pkgname/$pkgver/$pkgname-$pkgver-x86_64-linux.tar.bz2)
     md5sums=('6749a3e2fbd401c7c4f2321d243558b9')
 fi
-	
+
 build() {
     mkdir -p $pkgdir/usr/bin
     mkdir -p $pkgdir/opt/$pkgname
